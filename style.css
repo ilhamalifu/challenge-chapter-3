@@ -1,0 +1,78 @@
+.section-headline {
+  background-image: url(./assets/main-bg.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.headline-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+}
+
+.content-title {
+  color: white;
+  font-size: 30px;
+}
+
+.content-description {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.btn-playnow {
+  background-color: orange;
+  color: black;
+  font-size: 15px;
+  padding: 10px 50px 10px 50px;
+}
+
+.h1 {
+  color: white;
+  font-size: 72px;
+}
+
+.ToggleButton {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 500px;
+}
+
+/* Page Two */
+.bagian {
+  padding: 15vh 0vh 15vh 0vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+@media screen and (min-width: 768px) and (min-height: 500px) {
+  .bagian {
+    height: 100vh;
+  }
+}
+
+#the-games {
+  height: 100vh;
+  background-image: url(./assets/the-games-bg.jpg);
+}
+
+#requirement {
+  background-image: url(./assets/requirements.png);
+}
+
+#features {
+  background-image: url(./assets/features.jpg);
+}
+
+#top-scores {
+  background-image: url(./assets/top-scores-bg.jpg);
+}
